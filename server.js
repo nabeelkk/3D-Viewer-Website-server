@@ -54,5 +54,5 @@ const PORT = process.env.PORT || 5003;
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
-  console.log(`📊 API available at http://localhost:${PORT}/api`);
+  console.log(`📊 API available at https://threed-viewer-website-server.onrender.com/api`);
 });
